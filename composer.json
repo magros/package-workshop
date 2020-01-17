@@ -24,5 +24,16 @@
     "orchestra/testbench": "^4.5",
     "laravel/browser-kit-testing": "^5.1",
     "orchestra/testbench-browser-kit": "^4.0"
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Magros\\PackageWorkshop\\PackageWorkshopServiceProvider"
+      ],
+      "dont-discover": [
+        "*"
+      ]
+    }
   }
 }
